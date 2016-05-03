@@ -8,12 +8,6 @@
   <name>btmovieserver Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
     <!--&lt;!&ndash; struts2核心依赖 &ndash;&gt;-->
     <!--<dependency>-->
       <!--<groupId>org.apache.struts</groupId>-->
@@ -98,9 +92,6 @@
     </dependency>
 
   </dependencies>
-  <properties>
-    <docker.image.prefix>daocloud.io</docker.image.prefix>
-  </properties>
   <build>
     <finalName>btmovieserver</finalName>
   </build>
