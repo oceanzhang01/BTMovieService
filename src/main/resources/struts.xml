@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="base" extends="json-default,struts-default">
+        <!-- 这里可以设置一些全局的返回值映射关系等 -->
+    </package>
+
+    <constant name="struts.action.extension" value="" />
+    <constant name="struts.ui.theme" value="simple" />
+    <constant name="struts.i18n.encoding" value="utf-8" />
+    <constant name="struts.multipart.maxSize" value="1073741824"/>
+    <constant name="struts.devMode" value="false"/>
+</struts>

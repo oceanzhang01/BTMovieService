@@ -1,0 +1,107 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dianping</groupId>
+  <artifactId>btmovieserver</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>btmovieserver Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!--&lt;!&ndash; struts2核心依赖 &ndash;&gt;-->
+    <!--<dependency>-->
+      <!--<groupId>org.apache.struts</groupId>-->
+      <!--<artifactId>struts2-core</artifactId>-->
+      <!--<version>2.3.24.1</version>-->
+    <!--</dependency>-->
+
+    <!--&lt;!&ndash; struts2零配置依赖 &ndash;&gt;-->
+    <!--<dependency>-->
+      <!--<groupId>org.apache.struts</groupId>-->
+      <!--<artifactId>struts2-convention-plugin</artifactId>-->
+      <!--<version>2.3.24.1</version>-->
+    <!--</dependency>-->
+
+    <!--&lt;!&ndash; struts2的json依赖 &ndash;&gt;-->
+    <!--<dependency>-->
+      <!--<groupId>org.apache.struts</groupId>-->
+      <!--<artifactId>struts2-json-plugin</artifactId>-->
+      <!--<version>2.3.24.1</version>-->
+    <!--</dependency>-->
+
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>1.0.14</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-dbutils</groupId>
+      <artifactId>commons-dbutils</artifactId>
+      <version>1.6</version>
+    </dependency>
+
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.37</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.7</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.10</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.6.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20090211</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.7</version>
+    </dependency>
+
+  </dependencies>
+  <properties>
+    <docker.image.prefix>daocloud.io</docker.image.prefix>
+  </properties>
+  <build>
+    <finalName>btmovieserver</finalName>
+  </build>
+</project>

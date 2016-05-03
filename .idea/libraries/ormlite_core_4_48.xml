@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ormlite-core-4.48">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ormlite-core-4.48.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ormlite-jdbc-4.48.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

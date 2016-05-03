@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'gandhi_sansregular';
+    src: url('GandhiSans-Regular-webfont.eot');
+    src: url('GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('GandhiSans-Regular-webfont.woff') format('woff')
+    font-weight: normal;
+    font-style: normal;
+
+}
+
